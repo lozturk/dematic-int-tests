@@ -15,6 +15,4 @@ public class HomePageTests extends TestBase {
         Assert.assertTrue(homePage.getGrayBarList().contains("Downloads & Resources"));
     }
 
-
-
 }

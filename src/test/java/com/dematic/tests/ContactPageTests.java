@@ -41,7 +41,5 @@ public class ContactPageTests extends TestBase {
                 " If necessary, someone will reach out to you shortly.";
         String actualMessage = contactPg.messageAfterSubmission.getText();
         Assert.assertEquals(actualMessage,afterContactRequestMessage);
-
-
     }
 }

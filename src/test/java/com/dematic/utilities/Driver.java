@@ -26,13 +26,6 @@ public class Driver {
                     WebDriverManager.firefoxdriver().setup();
                     driver = new FirefoxDriver();
                     break;
-                case "edge":
-                    if (System.getProperty("os.name").toLowerCase().contains("mac")) {
-                        throw new WebDriverException("Your operating system does not support the requested browser");
-                    }
-                    WebDriverManager.edgedriver().setup();
-                    driver = new EdgeDriver();
-                    break;
                 case "safari":
                     if (System.getProperty("os.name").toLowerCase().contains("windows")) {
                         throw new WebDriverException("Your operating system does not support the requested browser");
@@ -42,7 +35,6 @@ public class Driver {
                     break;
             }
         }
-
         return driver;
     }
 

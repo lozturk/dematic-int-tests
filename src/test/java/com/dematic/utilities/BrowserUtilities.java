@@ -31,6 +31,4 @@ public class BrowserUtilities {
         js.executeScript("arguments[0].scrollIntoView(true);", element);
     }
 
-
-
 }

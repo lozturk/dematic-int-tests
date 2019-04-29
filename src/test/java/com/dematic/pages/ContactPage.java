@@ -45,9 +45,4 @@ public class ContactPage {
     @FindBy(xpath = "//*[@id='pardot-form']/p/span/span")
     public WebElement messageAfterSubmission;
 
-
-
-
-
-
 }
